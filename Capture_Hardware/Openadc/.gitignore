@@ -1,0 +1,6 @@
+hdl/avnet_lx9board_iseproject_historical/
+*.?#?
+controlsw/python/capture-201*
+*.xmsgs
+*.pyc
+*.exe*
