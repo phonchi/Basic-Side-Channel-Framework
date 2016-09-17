@@ -6,14 +6,14 @@ This repository is aim to provide a basic framework for side-channel analysis. C
 
 ## Installation
 
-- Installing python and juypyter notebook and the required packages
+1. Installing python and juypyter notebook and the required packages
 ```
 pip install jupyter notebook
 pip install configobj
 pip install pyqtgraph
 ```
 
-- Installing FTD2XX driver. To install this package, download a copy of the ftd2xx repository and unzip it somewhere. Then run the following where you unzipped it:
+2. Installing FTD2XX driver. To install this package, download a copy of the ftd2xx repository and unzip it somewhere. Then run the following where you unzipped it:
 
 ```
 python setup.py install
