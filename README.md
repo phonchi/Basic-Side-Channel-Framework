@@ -6,14 +6,15 @@ This repository is aim to provide a basic framework for side-channel analysis. C
 
 ## Installation
 
-1. Installing python and juypyter notebook and the required packages
+- Installing python and juypyter notebook and the required packages
+
 ```
 pip install jupyter notebook
 pip install configobj
 pip install pyqtgraph
 ```
 
-2. Installing FTD2XX driver. To install this package, download a copy of the ftd2xx repository and unzip it somewhere. Then run the following where you unzipped it:
+- Installing FTD2XX driver. To install this package, download a copy of the ftd2xx repository and unzip it somewhere. Then run the following where you unzipped it:
 
 ```
 python setup.py install
@@ -46,4 +47,7 @@ python setup.py develop
 - Follow the wiki page or the SAKURAG manual to do a quick capture, and save the results as raw states
 - Now you can manipulate the trace like http://nbviewer.jupyter.org/github/phonchi/chipwhisperer/blob/master/testchip.ipynb
 
-
+## Development
+- Use Tools/make_ise to manage your projects
+- The samples project for target control hardware are in the Target_Hardware folder
+- More detail can be found in the wiki page
