@@ -43,9 +43,13 @@ python setup.py develop
 cd c:\chipwhisperer\software
 python setup.py develop
 ```
+- You can also access the latest build through docker
+https://hub.docker.com/r/phonchi/chipwhisperer-docker/
 
 - Follow the wiki page or the SAKURAG manual to do a quick capture, and save the results as raw states
 - Now you can manipulate the trace like http://nbviewer.jupyter.org/github/phonchi/chipwhisperer/blob/master/testchip.ipynb
+
+
 
 ## Development
 - Use Tools/make_ise to manage your projects
